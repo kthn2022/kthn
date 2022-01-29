@@ -27,7 +27,7 @@ border-bottom:1px solid #fff
   background: #F1F1F1;
   color: #333;
 }
-@media all and (max-width: 448px) {
+@media all and (max-width: 465px) {
    #menu ul a{
       max-width:112px;
   }
