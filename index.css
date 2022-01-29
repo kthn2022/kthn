@@ -30,5 +30,5 @@ border-bottom:1px solid #fff
 }
 @media all and (max-width: 465px) {
    #menu ul a{
-      max-width:110px;
+      max-width:109px;
   }
