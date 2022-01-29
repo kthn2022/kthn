@@ -28,5 +28,5 @@ border-left:1px solid #fff;
 }
 @media all and (max-width: 320px) {
    body {
-      max-width:70%;
+      max-width:50%;
    }
