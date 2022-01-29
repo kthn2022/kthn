@@ -25,9 +25,6 @@ h1{
   display:inline;
   color:red;
 }
-div{
-  
-}
 h3{
   width:448px;
   color:darkgreen;
@@ -51,3 +48,8 @@ p{
   background:aqua;
   color:grey;
 }
+@media all and (max-width: 480px) {
+  *{
+    max-width:100%;
+    max-height:100%;
+  }
