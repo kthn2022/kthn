@@ -1,0 +1,53 @@
+.qs {
+  display: inline-flex;
+  margins-left:20px;
+  width:549px;
+  height:40px;
+}
+input{
+  margin-top: 23px;
+  width:35px;
+  margin-right:3px;
+  height:18px;
+}
+.yesno{
+  display:inline-flex;
+  width:529px;
+  height:40px;
+}
+.yesno1{
+  margin-left:450px;
+}
+.yesno2{
+  margin-left:20px;
+}
+h1{
+  display:inline;
+  color:red;
+}
+div{
+  
+}
+h3{
+  width:448px;
+  color:darkgreen;
+}
+*{
+  background:lightblue;
+}
+p{
+  height:13px;
+}
+#submit-form {
+  font-weight: semi-bold;
+  color:white;
+  background:grey;
+  font-size:20px;
+  margin-left:40px
+  padding-top:20px;
+  border:1px solid black;
+}
+#submit-form:hover{
+  background:aqua;
+  color:grey;
+}

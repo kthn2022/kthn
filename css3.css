@@ -1,0 +1,38 @@
+.ttcn {
+  font-size: 25px;
+  margin: 9px 0;
+}
+input[type=text]:focus {
+  background-color: aqua;
+}
+input[type=text]{
+  padding: 5px 30px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+*{
+  font-family:Times New Roman;
+  background:lightblue;
+  margin-left: 15px
+}
+h3 {font-size: 25px;
+  font-weight: bold;
+  color: darkgreen
+}
+#submit-form {
+  font-weight: semi-bold;
+  color:white;
+  background:grey;
+  font-size:20px;
+  margin-left:40px
+  padding-top:20px;
+   border:1px solid black;
+}
+#submit-form:hover{
+  background:aqua;
+  color:grey;
+}
+.inp {
+  font-size: 18px;
+  color:green;
+} 
