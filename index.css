@@ -26,8 +26,3 @@ border-left:1px solid #fff;
   background: #F1F1F1;
   color: #333;
 }
-@media only screen and (min-width: 320px) and (max-width: 860px) {
-#menu ul a{
-text-decoration:none;
-width:50px;
-}
