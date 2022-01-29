@@ -48,7 +48,4 @@ p{
   background:aqua;
   color:grey;
 }
-@media all and (max-width: 480px) {
-  *{
-    max-width:448px;
-  }
+
