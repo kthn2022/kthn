@@ -1,56 +1,81 @@
-.qs {
-  display: inline-flex;
-  margins-left:20px;
-  width:549px;
-  height:40px;
-}
-input{
-  margin-top: 23px;
-  width:35px;
-  margin-right:3px;
-  height:18px;
-}
-.yesno{
-  display:inline-flex;
-  width:529px;
-  height:40px;
-}
-.yesno1{
-  margin-left:450px;
-}
-.yesno2{
-  margin-left:20px;
-}
-h1{
-  display:inline;
-  color:red;
-}
-body{
-  margin-left: 30px;
-}
-h3{
-  width:448px;
-  color:darkgreen;
-}
 *{
   background:lightblue;
+  font-family:Arial;
 }
-p{
-  height:22px;
-}
-button{
-  margin-left: 150px;
+input{
+  height:25px;
+  width:25px;
 }
 #submit-form {
   font-weight: semi-bold;
   color:white;
   background:grey;
-  font-size:25px;
+  font-size:27px;
   margin-left:40px
   padding-top:20px;
   border:1px solid black;
+  margin-left:235px;
 }
 #submit-form:hover{
   background:aqua;
   color:grey;
+}
+table{
+  color:darkgreen;
+}
+h1{
+  color:red;
+}
+#menu ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+
+#menu ul li{
+display:inline;
+}
+ 
+#menu ul a{
+text-decoration:none;
+width:220px;
+float:left;
+background:#1F568B;
+color:#fff;
+font-weight:bold;
+text-align:center;
+line-height:35px;
+border-left:1px solid #fff;
+border-bottom:1px solid #fff
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+@media all and (max-width: 480px) and (min-width:390px){
+  #menu ul a{
+      max-width:112px;
+  }
+  form{
+    margin-top:100px;
+  }
+}
+@media all and (max-width: 390px){
+    #menu ul a{
+      max-width:112px;
+  }
+  form{
+    margin-top:200px;
+  }
+}
+@media all and (max-width: 700px) and (min-width:480px){
+  form{
+    margin-top:100px;
+  }
+}
+@media all and (min-width:700px){
+ form{
+   margin-left:50px;
+   margin-top: 20px;
+  }
 }

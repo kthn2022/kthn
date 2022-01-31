@@ -29,6 +29,7 @@ input{
 }
 *{
   background:lightblue;
+  font-family: Arial;
 }
 .inp{
   display:inline-flex;
@@ -66,9 +67,56 @@ input{
 button{
   margin-left:150px;
 }
-@media all and (min-width:700px){
-  body{
-    margin-left:50px;
+#menu ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+
+#menu ul li{
+display:inline;
+}
+ 
+#menu ul a{
+text-decoration:none;
+width:220px;
+float:left;
+background:#1F568B;
+color:#fff;
+font-weight:bold;
+text-align:center;
+line-height:35px;
+border-left:1px solid #fff;
+border-bottom:1px solid #fff
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+@media all and (max-width: 480px) and (min-width:390px){
+  #menu ul a{
+      max-width:112px;
   }
-  
+  form{
+    margin-top:100px;
+  }
+}
+@media all and (max-width: 390px){
+    #menu ul a{
+      max-width:112px;
+  }
+  form{
+    margin-top:200px;
+  }
+}
+@media all and (max-width: 700px) and (min-width:480px){
+  form{
+    margin-top:100px;
+  }
+}
+@media all and (min-width:700px){
+ form{
+   margin-left:50px;
+   margin-top: 20px;
+  }
 }
