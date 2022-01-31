@@ -25,6 +25,9 @@ h1{
   display:inline;
   color:red;
 }
+body{
+  margin-left: 30px;
+}
 h3{
   width:448px;
   color:darkgreen;
@@ -35,11 +38,14 @@ h3{
 p{
   height:22px;
 }
+button{
+  margin-left: 150px;
+}
 #submit-form {
   font-weight: semi-bold;
   color:white;
   background:grey;
-  font-size:20px;
+  font-size:25px;
   margin-left:40px
   padding-top:20px;
   border:1px solid black;
@@ -48,4 +54,3 @@ p{
   background:aqua;
   color:grey;
 }
-

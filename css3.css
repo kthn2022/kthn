@@ -1,21 +1,11 @@
-.ttcn {
-  font-size: 25px;
-  margin: 9px 0;
-}
-input[type=text]:focus {
-  background-color: aqua;
-}
-input[type=text]{
-  padding: 5px 30px;
-  margin: 4px 0;
-  box-sizing: border-box;
-}
 *{
   font-family:Times New Roman;
   background:lightblue;
-  margin-left: 15px
 }
-h3 {font-size: 25px;
+body{
+  margin-left:15px;
+}
+h3 {font-size: 26px;
   font-weight: bold;
   color: darkgreen
 }
@@ -23,16 +13,61 @@ h3 {font-size: 25px;
   font-weight: semi-bold;
   color:white;
   background:grey;
-  font-size:20px;
+  font-size:25px;
   margin-left:40px
   padding-top:20px;
-   border:1px solid black;
+  border:1px solid black;
 }
 #submit-form:hover{
   background:aqua;
   color:grey;
 }
+button{
+  margin-left:150px;
+}
 .inp {
-  font-size: 18px;
+  font-size: 22px;
   color:green;
 } 
+input{
+  height:19px;
+  width:20px;
+  margin-bottom:15px;
+}
+@media all and (max-width:600px){
+  button{
+    margin-left:150px;
+  }
+}
+@media all and (max-width: 900px) and (min-width: 800px){
+  *{
+    margin-left:15px;
+  }
+  button{
+    margin-left:385px;
+  }
+}
+@media all and (max-width:800px) and (min-width: 600px){
+  *{
+    margin-left:15px;
+  }
+  button{
+    margin-left:300px;
+  }
+}
+@media all and (max-width:1100px) and (min-width: 900px){
+  *{
+    margin-left:15px;
+  }
+  button{
+    margin-left:455px;
+  }
+}
+@media all and (min-width:1250px){
+  *{
+    margin-left:15px;
+  }
+  button{
+    margin-left:650px;
+  }
+}
