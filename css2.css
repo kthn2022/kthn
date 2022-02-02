@@ -2,6 +2,9 @@
   background:lightblue;
   font-family:Arial;
 }
+button{
+  text-align:center;
+}
 input{
   height:25px;
   width:25px;
