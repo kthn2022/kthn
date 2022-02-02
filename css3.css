@@ -22,9 +22,6 @@ h3 {font-size: 26px;
   background:aqua;
   color:grey;
 }
-button{
-  margin-left:150px;
-}
 .inp {
   font-size: 22px;
   color:green;
@@ -34,41 +31,24 @@ input{
   width:20px;
   margin-bottom:15px;
 }
-@media all and (max-width:600px){
-  button{
-    margin-left:150px;
-  }
-}
 @media all and (max-width: 900px) and (min-width: 800px){
   *{
     margin-left:15px;
-  }
-  button{
-    margin-left:385px;
   }
 }
 @media all and (max-width:800px) and (min-width: 600px){
   *{
     margin-left:15px;
   }
-  button{
-    margin-left:300px;
-  }
 }
 @media all and (max-width:1100px) and (min-width: 900px){
   *{
     margin-left:15px;
   }
-  button{
-    margin-left:455px;
-  }
 }
 @media all and (min-width:1250px){
   body{
     margin-left:15px;
-  }
-  button{
-    margin-left:650px;
   }
 }
 #menu ul{
@@ -108,7 +88,7 @@ border-bottom:1px solid #fff
 @media all and (max-width:390px){
   #menu{
   padding-bottom:120px;
-}
+   }
 }
 form{
   padding-top:100px;
