@@ -6,6 +6,9 @@ input{
   height:25px;
   width:25px;
 }
+button{
+  text-align:center;
+}
 #submit-form {
   font-weight: semi-bold;
   color:white;
