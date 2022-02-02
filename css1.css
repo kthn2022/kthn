@@ -2,6 +2,9 @@
 *{
   background:lightblue;
 }
+button{
+  text-align:center;
+ }
 body{
   max-width:480px;
   min-width:220px;
