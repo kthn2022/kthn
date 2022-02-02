@@ -2,9 +2,6 @@
 *{
   background:lightblue;
 }
-button{
-  text-align:center;
- }
 body{
   max-width:480px;
   min-width:220px;
@@ -68,8 +65,8 @@ input{
   color:grey;
 }
 button{
-  margin-left:150px;
-}
+  text-align:center;
+ }
 #menu ul{
 list-style-type:none;
 padding:0px;
