@@ -37,15 +37,29 @@ ul{
   #menu ul a{
       width:32%;
   }
+  #menu{
+    padding-bottom:55px;
+  }
 }
 @media all and (max-width: 700px) and (min-width:465px){
   #menu ul a{
       width:48%;
   }
+  #menu{
+    padding-bottom:95px;
+  }
 }
 @media all and (max-width: 465px) and (min-width:370px){
   #menu ul a{
       width:32%;
+  }
+  #menu{
+    padding-bottom:130px;
+  }
+}
+@media all and (max-width:370px){
+  #menu{
+    padding-bottom:205px;
   }
 }
 #menu .pos{
