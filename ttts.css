@@ -36,14 +36,12 @@ ul{
 table{
   margin-left:5%;
 }
-@media all and (min-width: 1350px){
-}
 @media all and (max-width: 1350px) and (min-width:700px){
   #menu ul a{
       width:32%;
   }
   #menu{
-    padding-bottom:75px;
+    padding-bottom:80px;
   }
 }
 @media all and (max-width: 700px) and (min-width:465px){
@@ -51,7 +49,7 @@ table{
       width:48%;
   }
   #menu{
-    padding-bottom:110px;
+    padding-bottom:115px;
   }
 }
 @media all and (max-width: 465px) and (min-width:370px){
@@ -59,7 +57,7 @@ table{
       width:32%;
   }
   #menu{
-    padding-bottom:145px;
+    padding-bottom:150px;
   }
 }
 @media all and (max-width:370px){
