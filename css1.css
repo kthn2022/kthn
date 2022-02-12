@@ -71,7 +71,7 @@ ul{
       width:32%;
   }
   form{
-    padding-top:50px;
+    padding-top:60px;
   }
 }
 @media all and (max-width: 700px) and (min-width:465px){
@@ -80,7 +80,7 @@ ul{
   }
   form{
     padding-left:5%;
-    padding-top:75px;
+    padding-top:85px;
   }
 }
 @media all and (max-width: 465px) and (min-width:370px){
@@ -95,7 +95,19 @@ ul{
   }
   form{
     padding-left:0px;
-    padding-top:115px;
+    padding-top:125px;
+  }
+}
+@media all and (max-width:370px){
+  h3{
+    font-size:25px;
+  }
+  p{
+    font-size:20px;
+  }
+  form{
+    padding-left:0px;
+    padding-top:200px;
   }
 }
 #menu .pos{
