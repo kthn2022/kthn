@@ -33,6 +33,9 @@ ul{
   background: #F1F1F1;
   color: #333;
 }
+#menu{
+  padding-bottom:20px;
+}
 @media all and (max-width: 1350px) and (min-width:700px){
   #menu ul a{
       width:32%;
