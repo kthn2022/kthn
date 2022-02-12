@@ -22,13 +22,34 @@ font-weight:bold;
 text-align:center;
 line-height:35px;
 border-left:1px solid #fff;
-border-bottom:1px solid #fff
+border-bottom:1px solid #fff;
+transition:0.5s;
+}
+ul{
+  position:fixed;
+  top:0;
+  width:100%;
 }
 #menu a:hover {
   background: #F1F1F1;
   color: #333;
 }
-@media all and (max-width: 465px) {
-   #menu ul a{
-      max-width:112px;
+@media all and (max-width: 1350px) and (min-width:700px){
+  #menu ul a{
+      width:32%;
   }
+}
+@media all and (max-width: 700px) and (min-width:465px){
+  #menu ul a{
+      width:48%;
+  }
+}
+@media all and (max-width: 465px) and (min-width:370px){
+  #menu ul a{
+      width:32%;
+  }
+}
+#menu .pos{
+  background: white;
+  color: black;
+}
