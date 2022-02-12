@@ -1,6 +1,7 @@
 *{
   background: lightblue;
   font-family: Arial;
+  text-decoration: none;
 }
 #menu ul{
 list-style-type:none;
@@ -32,20 +33,65 @@ ul{
   background: #F1F1F1;
   color: #333;
 }
+table{
+  margin-left:5%;
+}
 @media all and (max-width: 1350px) and (min-width:700px){
   #menu ul a{
       width:32%;
+  }
+  #menu{
+    padding-bottom:80px;
   }
 }
 @media all and (max-width: 700px) and (min-width:465px){
   #menu ul a{
       width:48%;
   }
+  #menu{
+    padding-bottom:115px;
+  }
 }
 @media all and (max-width: 465px) and (min-width:370px){
   #menu ul a{
       width:32%;
   }
+  #menu{
+    padding-bottom:150px;
+  }
+}
+@media all and (max-width:370px){
+  #menu{
+    padding-bottom:220px;
+  }
+}
+#menu .pos{
+  background: white;
+  color: black;
+}
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size:18px;
+  }
+  td{
+    color:green;
+  }
+  tr{
+    color:red;
+  }
+table{
+    min-width:300px;
+  }
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
 }
 #menu .pos{
   background: white;
