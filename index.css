@@ -84,6 +84,5 @@ p,dt,dl{
   font-size:19px;
 }
 img{
-  display:block;
-  text-align:center;
+  margin-left:30%;
 }
