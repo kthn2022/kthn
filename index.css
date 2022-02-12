@@ -53,14 +53,16 @@ ul{
   color: black;
 }
 table{
-font-family: arial;
-border-collapse: collapse;
-width: 70%;
+		font-family: arial;
+		width: 70%;
 	}
 td, th{
-border: 1px solid;
-text-align: left;
+		border: 1px solid;
+		text-align: left;
 	}
 h3{
   display:inline-block;
+}
+p,dt,dl{
+  font-size:19px;
 }
