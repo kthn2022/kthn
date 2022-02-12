@@ -1,0 +1,103 @@
+*{
+  background: lightblue;
+  font-family: Arial;
+  text-decoration: none;
+}
+#menu ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+
+#menu ul li{
+display:inline;
+}
+ 
+#menu ul a{
+text-decoration:none;
+width:220px;
+float:left;
+background:#1F568B;
+color:#fff;
+font-weight:bold;
+text-align:center;
+line-height:35px;
+border-left:1px solid #fff;
+border-bottom:1px solid #fff;
+transition:0.5s;
+}
+ul{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+table{
+  margin-left:5%;
+}
+@media all and (min-width: 1350px){
+}
+@media all and (max-width: 1350px) and (min-width:700px){
+  #menu ul a{
+      width:32%;
+  }
+  #menu{
+    padding-bottom:65px;
+  }
+}
+@media all and (max-width: 700px) and (min-width:465px){
+  #menu ul a{
+      width:48%;
+  }
+  #menu{
+    padding-bottom:100px;
+  }
+}
+@media all and (max-width: 465px) and (min-width:370px){
+  #menu ul a{
+      width:32%;
+  }
+  #menu{
+    padding-bottom:135px;
+  }
+}
+@media all and (max-width:370px){
+  #menu{
+    padding-bottom:210px;
+  }
+}
+#menu .pos{
+  background: white;
+  color: black;
+}
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size:18px;
+  }
+  td{
+    color:green;
+  }
+  tr{
+    color:red;
+  }
+table{
+    min-width:300px;
+  }
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
+}
+#menu .pos{
+  background: white;
+  color: black;
+}
