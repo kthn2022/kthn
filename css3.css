@@ -1,29 +1,18 @@
-*{
-  font-family:Arial;
-  background:lightblue;
-}
-form{
-  margin-left:15px;
-}
-button{
-  text-algin:center;
-}
 h3 {font-size: 26px;
   font-weight: bold;
-  color: darkgreen
+  color:green
 }
 #submit-form {
   font-weight: semi-bold;
-  color:white;
-  background:grey;
+  color:black;
+  background:white;
   font-size:25px;
-  margin-left:40px
-  padding-top:20px;
-  border:1px solid black;
+  margin-left:40%;
+  border:1px solid gray;
 }
 #submit-form:hover{
-  background:aqua;
-  color:grey;
+  background:gray;
+  color:white;
 }
 .inp {
   font-size: 22px;
@@ -34,10 +23,13 @@ input{
   width:20px;
   margin-bottom:15px;
 }
-@media all and (min-width: 600px){
-  form{
-    margin-left:15px;
-  }
+form{
+  padding-left:5%;
+  padding-top:10px;
+}
+*{
+  background: lightblue;
+  font-family: Arial;
 }
 #menu ul{
 list-style-type:none;
@@ -59,55 +51,49 @@ font-weight:bold;
 text-align:center;
 line-height:35px;
 border-left:1px solid #fff;
-border-bottom:1px solid #fff
+border-bottom:1px solid #fff;
+transition:0.5s;
+}
+ul{
+  position:fixed;
+  top:0;
+  width:100%;
 }
 #menu a:hover {
   background: #F1F1F1;
   color: #333;
 }
-@media all and (max-width: 480px) and (min-width:390px){
+@media all and (max-width: 1350px) and (min-width:700px){
   #menu ul a{
-      max-width:112px;
+      width:32%;
   }
-  #menu{
-      padding-bottom:50px;
-  }
-}
-@media all and (max-width:390px){
-  #menu{
-  padding-bottom:120px;
-   }
-}
-form{
-  padding-top:100px;
-}
-@media all and (min-width:1100px) and (max-width:1250px){
-  #submit-form{
-    margin-left:595px;
+  form{
+    padding-top:50px;
   }
 }
-@media all and (max-width:600px){
-  #submit-form{
-    margin-left:250px;
+@media all and (max-width: 700px) and (min-width:465px){
+  #menu ul a{
+      width:48%;
+  }
+  form{
+    padding-top:80px;
   }
 }
-@media all and (max-width: 900px) and (min-width: 800px){
-  #submit-form{
-    margin-left:385px;
+@media all and (max-width: 465px) and (min-width:370px){
+  #menu ul a{
+      width:32%;
+  }
+  form{
+    padding-top:115px;
   }
 }
-@media all and (max-width:800px) and (min-width: 600px){
-  #submit-form{
-    margin-left:300px;
+@media all and (max-width:370px){
+  form{
+    padding-top:200px;
   }
 }
-@media all and (max-width:1100px) and (min-width: 900px){
-  #submit-form{
-    margin-left:455px;
-  }
+#menu .pos{
+  background: white;
+  color: black;
 }
-@media all and (min-width:1250px){
-  #submit-form{
-    margin-left:650px;
-  }
-}
+
