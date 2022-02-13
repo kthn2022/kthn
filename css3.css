@@ -5,6 +5,9 @@ h3 {font-size: 26px;
   font-weight: bold;
   color:green
 }
+h1{
+  color:red;
+}
 #submit-form {
   font-weight: semi-bold;
   color:black;
