@@ -2,6 +2,7 @@
   background: lightblue;
   font-family: Arial;
   border-collapse: collapse;
+  line-height:25px;
 }
 #menu ul{
 list-style-type:none;
@@ -91,4 +92,27 @@ th{
 }
 .tbody{
   margin-left:1%;
+}
+h3{
+  color:green;
+}
+summary:hover{
+  background:white;
+  color:black;
+}
+summary{
+  border-top:2px solid white;
+  font-weight:bold;
+  font-size:22px;
+  color:white;
+  margin-bottom:20px;
+  background:black;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-top:10px;
+  transition:0.5s;
+}
+summary:active{
+  background:cyan;
+  color:white;
 }
