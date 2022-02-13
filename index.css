@@ -71,7 +71,6 @@ ul{
 }
 table{
 		font-family: arial;
-		width: 70%;
 	}
 td, th{
 		border: 1px solid;
@@ -79,6 +78,7 @@ td, th{
 	}
 h3{
   display:inline-block;
+  font-size:21px;
 }
 p,dt,dl{
   font-size:19px;
@@ -88,4 +88,7 @@ img{
 }
 th{
   text-align:center;
+}
+.tbody{
+  margin-left:1%;
 }
