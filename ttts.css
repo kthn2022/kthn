@@ -12,7 +12,11 @@ margin:0px;
 #menu ul li{
 display:inline;
 }
- 
+
+#menu{
+  padding-bottom:50px;
+}
+
 #menu ul a{
 text-decoration:none;
 width:220px;
