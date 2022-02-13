@@ -17,9 +17,12 @@ th{
   font-size:23px;
   color:red;
 }
-h1{
+h2{
   font-size:30px;
   color:green;
+}
+h1{
+  color:red
 }
 .inp{
   display:inline-flex;
