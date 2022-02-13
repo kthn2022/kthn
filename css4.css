@@ -24,6 +24,7 @@ h4{
 }
 h1{
   color:red;
+  margin-left:1%;
 }
 @media all and (max-width:800px) and (min-width: 600px){
   table{
