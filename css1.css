@@ -10,6 +10,10 @@
   background:gray;
   color:white;
 }
+body{
+     margin: 0;
+     padding: 0;
+ }
 p{
   font-size:21px;
   color:red;
@@ -51,7 +55,7 @@ display:inline;
  
 #menu ul a{
 text-decoration:none;
-width:220px;
+width:16,66%;
 float:left;
 background:#1F568B;
 color:#fff;
