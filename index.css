@@ -115,7 +115,7 @@ img{
   max-with: pixcel;
   height:auto
 }
-@media all and (min-width:600px){
+@media all and (min-width:576px){
   img{
     max-width:50%;
   }
