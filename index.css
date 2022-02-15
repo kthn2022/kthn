@@ -115,6 +115,11 @@ img{
   max-with: pixcel;
   height:auto
 }
+@media all and (min-width:600px){
+  img{
+    max-width:50%;
+  }
+}
 summary:hover{
   background:white;
   color:black;
