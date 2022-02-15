@@ -5,6 +5,6 @@ function myFunction(x) {
   else hidden.style.display = 'block';
   
   var main = document.getElementById('mbody');
-   if (main.style.marginLeft == '50%') main.style.marginLeft='0px';
-  else main.style.marginLeft='50%';
+   if (main.style.marginLeft == '220px') main.style.marginLeft='0px';
+  else main.style.marginLeft='220px';
 }
