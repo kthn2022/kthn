@@ -111,6 +111,9 @@ img{
   margin-right: auto;
   margin-top:10px;
   margin-bottom:10px;
+  width: 100%;
+  max-with: pixcel;
+  height:auto
 }
 summary:hover{
   background:white;
