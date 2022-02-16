@@ -5,8 +5,7 @@
   margin-top:0px;
 }
 body{
-  margin:0;
-  pading:0;
+  margin-left:0px;
 }
 #menu .pos{
   background: white;
@@ -122,6 +121,7 @@ summary{
   margin-top:10px;
   transition:0.5s;
   cursor: pointer;
+  margin-left:8px;
 }
 @media all and (min-width:576px){
   img{
