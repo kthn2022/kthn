@@ -138,13 +138,11 @@ table, tr, th, td{
   }
   td{
     color:green;
+    padding-top:5px;
+    padding-bottom:5px;
   }
   tr{
     color:red;
-  }
-table{
-    padding-top:20px;
-    min-width:300px;
   }
 a:hover{
     color:white;
@@ -159,5 +157,22 @@ a:visited{
 #menu .pos{
   background: white;
   color: black;
+}
+#mySearch {
+  width: 197px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display:block;
+  margin:0px;
+}
+#myInput {
+  width: 100%;; 
+  max-width:545px;
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px;
+  border: 2px solid #ddd; 
+  margin-bottom: 12px;
+  margin-left:5%;
 }
 

@@ -162,3 +162,11 @@ form{
 h1{
   margin-left:1%;
 }
+#mySearch {
+  width: 197px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display:block;
+  margin:0px;
+}

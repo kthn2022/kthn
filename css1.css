@@ -124,3 +124,11 @@ form{
   background:gray;
   color:white;
 }
+#mySearch {
+  width: 197px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display:block;
+  margin:0px;
+}

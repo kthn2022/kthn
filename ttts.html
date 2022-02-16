@@ -6,11 +6,33 @@
  <link rel="stylesheet" type="text/css" href="ttts.css">
    <link rel="shortcut icon" href="title.jpg"/>
   <script src="script.js"></script>
+  <script type="text/javascript">
+    function sFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+   for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+  </script>
   <title>Thông tin tuyển sinh</title>
 </head>
 <body>
 <div id="menu">
  <ul>
+<input type="text" id="mySearch" onkeyup="Function()" placeholder="Search..">
   <li><a href="index.html">Cơ sở của lý thuyết</a></li>
  <li><a class="pos" href="ttts.html">Thông tin tuyển sinh</a></li>
  <li><a href="html1.html">Chẩn đoán - khác biệt</a></li>
@@ -25,9 +47,14 @@
         <div class="bar2"></div>
         <div class="bar3"></div>
     </div>
-<table>
+<div style="padding-top:45px;">
+<h1 style="text-align:center;color:red;">
+  Thông tin các trường
+  </h1>
+<input type="text" id="myInput" onkeyup="sFunction()" placeholder="Search for names..">
+<table id="myTable">
   <thead>
-<tr>
+<tr class="header">
 <th>STT</th>
 <th>Mã trường</th>
 <th>Tên trường</th>
@@ -500,7 +527,8 @@
 <td><a href="https://tuyensinhso.vn/school/dai-hoc-dong-do.html">Đại học Đông Đô</a></td>
 </tr>
 </tbody>
- </table> 
+ </table>
+  </div>
 <div id="Tim-hieu-nghe">
 <dl>
   <dt><a href="https://thongtintuyensinh.vn/Tim-truong-theo-cac-nhom-nganh-dao-tao-trinh-do-dai-hoc_C128_D14907.htm">Tuyển sinh theo ngành học</a></dt>

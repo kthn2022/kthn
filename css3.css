@@ -115,3 +115,15 @@ form{
   padding-left:5%;
   padding-top:15px;
 }
+#mySearch {
+  width: 197px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display:block;
+  margin:0px;
+}
+h3{
+  font-size:27px;
+  color:darkgreen;
+}
