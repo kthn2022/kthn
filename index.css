@@ -1,5 +1,4 @@
 *{
-  background: lightblue;
   font-family: Arial;
   border-collapse: collapse;
   text-indent:10px;
@@ -12,12 +11,6 @@ body{
 #menu .pos{
   background: white;
   color: black;
-}
-.container{
-  display:none;
-}
-#menu {
-  display:block;
 }
   .container {
             cursor: pointer;
@@ -63,10 +56,8 @@ display:block;
 list-style-type:none;
 padding:0px;
 margin:0px;
-margin: 0;
-padding: 0;
-width:220px;
-background-color: #e9d8f4;
+width:222px;
+background-color: lightgreen;
 position: fixed;
 height: 100%;
 overflow: auto;
@@ -77,8 +68,8 @@ overflow: auto;
 }
 #menu ul a{
 text-decoration:none;
-background:#1F568B;
-color:#fff;
+background:cyan;
+color:darkgreen;
 width:100%;
 float:none;
 border-bottom:1px solid white;
@@ -87,7 +78,7 @@ text-align:center;
 transition:0.5s;
 }
 #menu a:hover {
-  background: #F1F1F1;
+  background: #B5B5B5;
   color: #333;
 }  
 td, th{
@@ -116,16 +107,16 @@ img{
   height:auto
 }
 summary:hover{
-  background:white;
-  color:black;
+  background:green;
+  color:white;
 }
 summary{
-  border-top:2px solid white;
+  border:2px solid green;
   font-weight:bold;
   font-size:22px;
-  color:white;
+  color:green;
   margin-bottom:20px;
-  background:black;
+  background:white;
   padding-top:5px;
   padding-bottom:5px;
   margin-top:10px;

@@ -5,8 +5,8 @@ function myFunction(x) {
   else hidden.style.display = 'block';
   
   var main = document.getElementById('mbody');
-   if (main.style.marginLeft == '220px') main.style.marginLeft='0px';
-  else main.style.marginLeft='220px';
+   if (main.style.marginLeft == '221px') main.style.marginLeft='0px';
+  else main.style.marginLeft='221px';
 }
 function Function() {
   var input, filter, ul, li, a, i;
