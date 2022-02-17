@@ -152,7 +152,7 @@ p,dl{
   font-size:37px;
 }
 
-@media screen and (min-width:576px){
+@media all and (min-width:576px){
 #deco1{
   border: hidden;
   padding-top: 2%;
