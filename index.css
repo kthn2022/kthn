@@ -149,11 +149,6 @@ p,dl{
   margin-left: 3%;
   margin-right: 3%;
 }
-details{
-  padding-bottom:1px;
-  margin-bottom:1%;
-  padding-left:0; 
-}
 }
 .accordion {
   background-color: #eee;
