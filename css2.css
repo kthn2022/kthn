@@ -123,3 +123,14 @@ form{
   display:block;
   margin:0px;
 }
+@media all and (min-width:576px){
+  .container{
+    display:none;
+  }
+  #menu{
+    display:block;
+  }
+  #mbody{
+    margin-left:221px;
+  }
+}
