@@ -115,9 +115,6 @@ summary:active{
   background:cyan;
   color:white;
 }
-p,dl{
-  margin-left:1%;
-}
 #mySearch {
   width: 197px;
   font-size: 18px;
