@@ -124,5 +124,16 @@ width:80%;
 margin:auto auto auto 10%;
 padding:auto;
 }
+@media all and (min-width:576px){
+  .container{
+    display:none;
+  }
+  #menu{
+    display:block;
+  }
+  #mbody{
+    margin-left:221px;
+  }
+}
 
 
