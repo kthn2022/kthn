@@ -91,8 +91,10 @@ transition:0.5s;
   color:white;
 }
 table{
+  margin-left:5%;
   margin-bottom:50px;
   color:green;
+  width:auto;
 }
 h1{
   color:red;
@@ -106,46 +108,14 @@ form input{
   height:25px;
   width:25px;
 }
-@media all and (max-width:800px) and (min-width: 600px){
-  table{
-    width:500px;
-    margin-left:40px;
-  }
-}
-@media all and (max-width: 900px) and (min-width: 800px){
+@media all and (min-width: 950px){
   .g1, .g2, .g3{
       display:inline-flex;
+      width:100%;
   }
   table{
-    width:350px;
-    margin-left:40px;
-  }
-}
-@media all and (max-width:1100px) and (min-width: 900px){
-  .g1, .g2, .g3{
-      display:inline-flex;
-  }
-  table{
-    width:410px;
-    margin-left:30px;
-  }
-}
-@media all and (min-width:1100px) and (max-width:1250px){
-  .g1, .g2, .g3{
-       display:inline-flex;
-  }
-  table{
-    width:500px;
-    margin-left:50px;
-  }
-}
-@media all and (min-width:1250px){
-  .g1, .g2, .g3{
-    display:inline-flex;
-  }
-  table{
-    width:600px;
-    margin-left:50px;
+    width:42%;
+    margin-left:5%;
   }
 }
 form{
