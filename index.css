@@ -103,17 +103,8 @@ img{
   margin-top:10px;
   margin-bottom:10px;
   width: 100%;
-  max-with: pixcel;
+  max-width: pixcel;
   height:auto
-}
-@media all and (min-width:576px){
-  img{
-    max-width:50%;
-  }
-}
-summary:active{
-  background:cyan;
-  color:white;
 }
 #mySearch {
   width: 197px;
@@ -128,10 +119,10 @@ summary:active{
   margin-left:0;
   margin-right:0;
   padding-left:5%;
+  padding-right:5%;
   padding-bottom:30px;
   color:white;
   font-size:37px;
-  widtg:auto;
 }
 .deco1{
   border: hidden;
@@ -147,6 +138,9 @@ summary:active{
   margin-left: 3%;
   margin-right: 3%;
 }
+  img{
+    max-width:50%;
+  }
 }
 .accordion {
   background-color: #eee;
