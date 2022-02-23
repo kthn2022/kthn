@@ -6,8 +6,9 @@ body{
   margin:0;
   pading:0;
 }
-#menu {
-  display:block;
+#menu .pos{
+  background: white;
+  color: black;
 }
   .container {
             cursor: pointer;
