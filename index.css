@@ -141,6 +141,15 @@ img{
   img{
     max-width:50%;
   }
+  .container{
+    display:none;
+  }
+  #menu{
+    display:block;
+  }
+  #mbody{
+    margin-left:221px;
+  }
 }
 .accordion {
   background-color: #eee;
