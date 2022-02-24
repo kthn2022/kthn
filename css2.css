@@ -5,6 +5,7 @@
 body{
   margin:0;
   pading:0;
+  text-indent: 10px;
 }
 #menu .pos{
   background: white;
@@ -53,7 +54,7 @@ display:block;
 list-style-type:none;
 padding:0px;
 margin:0px;
-width:222px;
+width:235px;
 background-color: lightgreen;
 position: fixed;
 height: 100%;
@@ -62,10 +63,11 @@ overflow: auto;
 #menu{
   line-height:200%;
   display:none;
+  text-indent:0px;
 }
 #menu ul a{
 text-decoration:none;
-background:cyan;
+background:lightblue;
 color:darkgreen;
 width:100%;
 float:none;
@@ -116,7 +118,7 @@ form{
   padding-top:15px;
 }
 #mySearch {
-  width: 197px;
+  width: 210px;
   font-size: 18px;
   padding: 8px 11px;
   border: 1px solid #ddd;
@@ -131,6 +133,6 @@ form{
     display:block;
   }
   #mbody{
-    margin-left:221px;
+    margin-left:236px;
   }
 }

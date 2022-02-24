@@ -1,12 +1,11 @@
 *{
   font-family: Arial;
   border-collapse: collapse;
-  text-indent:10px;
   margin-top:0px;
 }
 body{
   margin:auto 0 auto 0;
-  text-align:justify;
+  text-indent:10px;
 }
 #menu .pos{
   background: white;
@@ -56,7 +55,7 @@ display:block;
 list-style-type:none;
 padding:0px;
 margin:0px;
-width:222px;
+width:235px;
 background-color: lightgreen;
 position: fixed;
 height: 100%;
@@ -65,10 +64,11 @@ overflow: auto;
 #menu{
   line-height:200%;
   display:none;
+  text-indent: 0px;
 }
 #menu ul a{
 text-decoration:none;
-background:cyan;
+background: lightblue;
 color:darkgreen;
 width:100%;
 float:none;
@@ -107,7 +107,7 @@ img{
   height:auto
 }
 #mySearch {
-  width: 197px;
+  width: 210px;
   font-size: 18px;
   padding: 8px 11px;
   border: 1px solid #ddd;
@@ -115,7 +115,7 @@ img{
   margin:0px;
 }
 .hi{
-  background:cyan;
+  background: blue;
   margin-left:0;
   margin-right:0;
   padding-left:5%;
@@ -148,7 +148,7 @@ img{
     display:block;
   }
   #mbody{
-    margin-left:221px;
+    margin-left:236px;
   }
 }
 .accordion {

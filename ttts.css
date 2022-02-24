@@ -1,13 +1,13 @@
 *{
   font-family: Arial;
   border-collapse: collapse;
-  text-indent:10px;
   text-decoration: none;
   margin-top:0px;
 }
 body{
   margin:0;
   pading:0;
+  text-indent:10px;
 }
   .container {
             cursor: pointer;
@@ -52,7 +52,7 @@ display:block;
 list-style-type:none;
 padding:0px;
 margin:0px;
-width:222px;
+width:235px;
 background-color: lightgreen;
 position: fixed;
 height: 100%;
@@ -61,10 +61,11 @@ overflow: auto;
 #menu{
   line-height:200%;
   display:none;
+  text-indent:0px;
 }
 #menu ul a{
 text-decoration:none;
-background:cyan;
+background:lightblue;
 color:darkgreen;
 width:100%;
 float:none;
@@ -105,7 +106,7 @@ a:visited{
     color: #FF9933;
 }
 #mySearch {
-  width: 197px;
+  width: 210px;
   font-size: 18px;
   padding:8px 11px;
   border: 1px solid #ddd;
@@ -132,8 +133,7 @@ padding:auto;
     display:block;
   }
   #mbody{
-    margin-left:221px;
+    margin-left:236px;
   }
 }
-
 
