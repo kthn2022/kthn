@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="ttts.css">
+   <link rel="shortcut icon" href="title.jpg"/>
+  <script src="script.js"></script>
+  <script type="text/javascript">
+    function sFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+   for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[2];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+  </script>
+  <title>Thông tin tuyển sinh miền Nam</title>
+</head>
+<body>
+<div id="menu">
+ <ul>
+<input type="text" id="mySearch" onkeyup="Function()" placeholder="Search..">
+  <li><a href="index.html">Cơ sở lý thuyết</a></li>
+
+ <li><a href="html1.html">Test chẩn đoán - khác biệt</a></li>
+ <li><a href="html2.html">Test khí chất</a></li>
+ <li><a href="html3.html">Test hứng thú</a></li>
+ <li><a href="html4.html">Test sự phù hợp nghề</a></li>
+ <li><a href="ttts.html">Tuyển sinh miền Bắc</a></li>
+    <li><a href="tttst.html" >Tuyển sinh miền Trung</a></li>
+    <li><a href="tttsn.html" class="pos">Tuyển sinh miền Nam</a></li>
+ <li><a href="http://thidanhgianangluc.edu.vn/?fbclid=IwAR0cw3XX6zJNSpmuF6yuqyamC8Nb4WTzg22AVl2Lx0--z7nCNM_EQn6ipTw">Kì thi đánh giá năng lực</a></li>
+  <li><a href="https://thongtintuyensinh.vn/Tim-truong-theo-cac-nhom-nganh-dao-tao-trinh-do-dai-hoc_C128_D14907.htm">Tuyển sinh theo nhóm ngành</a></li>
+<li><a href="https://thongtintuyensinh.vn/Gioi-thieu-mot-so-nganh-nghe-trong-xa-hoi_C217_D4955.htm">Các ngành nghề</a></li>
+<li><a href="https://thongtintuyensinh.vn/Danh-muc-cac-nganh-nghe-dao-tao_C253_D6515.htm">Danh mục nghề</a></li>
+<li><a href="https://thongtintuyensinh.vn/Chuong-trinh-Quoc-te_C123.htm">Chương trình quốc tế</a></li>
+ </ul>
+</div>
+<div id="mbody">
+  <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+<div style="padding-top:45px;">
+<h1 style="text-align:center;color:red;">
+  Thông tin các trường
+  </h1>
+<div class="input">
+<input type="text" id="myInput" onkeyup="sFunction()" placeholder="Tìm trường theo tên">
+  </div>
+  <table id="myTable">
+  <thead class="header">
+ <tr>
+ <th>STT</th>
+<th>Mã trường</th>
+<th>Tên trường</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>DVH</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-van-hien.html"> Đại học Văn Hiến</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>HVC</td>
+<td><a href="https://tuyensinhso.vn/school/hoc-vien-can-bo-thanh-pho-ho-chi-minh.html">Học viện Cán bộ Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>BVS</td>
+<td><a href="https://tuyensinhso.vn/school/hoc-vien-cong-nghe-buu-chinh-vien-thong-co-so-phia-nam.html">Học viện Công nghệ Bưu chính Viễn thông (Cơ sở phía Nam)</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>HHK</td>
+<td><a href="https://tuyensinhso.vn/school/hoc-vien-hang-khong-viet-nam.html">Học viện Hàng không Việt Nam</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>KMA.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/hoc-vien-ky-thuat-mat-ma-co-so-phia-nam.html">Học viện Kỹ thuật Mật mã (cơ sở phía Nam)</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>HTN-N</td>
+<td><a href="https://tuyensinhso.vn/school/hoc-vien-thanh-thieu-nien-viet-nam-co-so-phia-nam.html">Học viện Thanh thiếu niên Việt Nam (cơ sở phía Nam)</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>HVC.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/hoc-vien-tu-phap-co-so-thanh-pho-ho-chi-minh.html">Học viện Tư pháp (Cơ sở Thành Phố Hồ Chí Minh)</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>QSY</td>
+ <td><a href="https://tuyensinhso.vn/school/khoa-y-dh-quoc-gia-tphcm.html">Khoa Y - ĐH Quốc gia TP.HCM</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>NVS</td>
+<td><a href="https://tuyensinhso.vn/school/nhac-vien-thanh-pho-ho-chi-minh.html">Nhạc viện Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>LNS</td>
+<td><a href="https://tuyensinhso.vn/school/phan-hieu-truong-dai-hoc-lam-nghiep-tai-tinh-dong-nai.html">Phân hiệu Trường Đại học Lâm nghiệp tại tỉnh Đồng Nai</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>DBD</td>
+<td><a href="https://tuyensinhso.vn/school/phan-hieu-dai-hoc-binh-duong-tai-ca-mau.html">Phân hiệu Đại học Bình Dương tại Cà Mau</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>TCT</td>
+<td><a href="https://tuyensinhso.vn/school/phan-hieu-dai-hoc-can-tho-tai-hau-giang.html">Phân hiệu Đại học Cần Thơ tại Hậu Giang</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>GSA</td>
+<td><a href="https://tuyensinhso.vn/school/phan-hieu-dai-hoc-giao-thong-van-tai-tai-tphcm.html">Phân hiệu Đại học Giao thông vận tải tại TP.HCM</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>NLN </td>
+<td><a href="https://tuyensinhso.vn/school/phan-hieu-dai-hoc-nong-lam-tp-hcm-tai-ninh-thuan.html">Phân hiệu Đại học Nông Lâm TP. HCM tại Ninh Thuận</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>QSB</td>
+<td><a href="https://tuyensinhso.vn/school/phan-hieu-dai-hoc-quoc-gia-tp-ho-chi-minh-tai-tinh-ben-tre.html">Phân hiệu Đại học Quốc gia TP Hồ Chí Minh tại tỉnh Bến Tre</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>VPH</td>
+<td><a href="https://tuyensinhso.vn/school/truong-si-quan-ky-thuat-quan-su-dai-hoc-tran-dai-nghia.html">Trường Sĩ quan Kỹ thuật quân sự (Đại học Trần Đại Nghĩa)</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>QSA</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-an-giang.html">Đại học An Giang</a></td>
+</tr>
+<tr>
+<td>18</td>
+ <td>ANS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-an-ninh-nhan-dan.html">Đại học An ninh Nhân dân</a></td>
+</tr>
+<tr>
+<td>19</td>
+<td>BVU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ba-ria-vung-tau.html">Đại học Bà Rịa - Vũng Tàu</a></td>
+</tr>
+<tr>
+<td>20</td>
+<td>DBL</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-bac-lieu.html">Đại học Bạc Liêu</a></td>
+</tr>
+<tr>
+<td>21</td>
+<td>QSB.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-bach-khoa-dhqg-tphcm.html">Đại học Bách Khoa - ĐHQG TP.HCM</a></td>
+</tr>
+<tr>
+<td>22</td>
+<td>DBD.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-binh-duong.html">Đại học Bình Dương</a></td>
+</tr>
+<tr>
+<td>23</td>
+<td>TCT.CT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-can-tho.html">Đại học Cần Thơ</a></td>
+</tr>
+<tr>
+<td>24</td>
+<td>CSS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-canh-sat-nhan-dan.html">Đại học Cảnh sát nhân dân</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td>DMD</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghe-mien-dong.html">Đại học Công nghệ Miền Đông</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td>DSG</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghe-sai-gon.html">Đại học Công nghệ Sài Gòn</a></td>
+</tr>
+<tr>
+<td>27</td>
+<td>DKC</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghe-thanh-pho-ho-chi-minh.html">Đại học Công nghệ Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>28</td>
+<td>QSC</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghe-thong-tin-dh-quoc-gia-tphcm.html">Đại học Công nghệ Thông tin - ĐH Quốc gia TP.HCM</a></td>
+</tr>
+ <tr>
+<td>29</td>
+<td>DCD</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghe-dong-nai.html">Đại học Công nghệ Đồng Nai</a></td>
+</tr>
+<tr>
+<td>30</td>
+<td>IUH</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghiep-thanh-pho-ho-chi-minh.html">Đại học Công nghiệp Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>31</td>
+<td>DCT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cong-nghiep-thuc-pham-thanh-pho-ho-chi-minh.html">Đại học Công nghiệp Thực phẩm Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>32</td>
+<td>DCL</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-cuu-long.html">Đại học Cửu Long</a></td>
+</tr>
+<tr>
+<td>33</td>
+<td>DLH</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-dan-lap-lac-hong.html">Đại học dân lập Lạc Hồng</a></td>
+</tr>
+<tr>
+<td>34</td>
+<td>PVU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-dau-khi-viet-nam.html">Đại học Dầu khí Việt Nam</a></td>
+</tr>
+<tr>
+<td>35</td>
+<td>FPT.CT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-fpt-can-tho.html">Đại học FPT Cần thơ</a></td>
+</tr>
+<tr>
+<td>36</td>
+<td>FPT.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-fpt-ho-chi-minh.html">Đại học FPT Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>37</td>
+<td>DCG</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-gia-dinh.html">Đại học Gia Định</a></td>
+</tr>
+<tr>
+<td>38</td>
+<td>GTS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-giao-thong-van-tai-thanh-pho-ho-chi-minh.html">Đại học Giao thông vận tải Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>39</td>
+<td>HSU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-hoa-sen.html">Đại học Hoa Sen</a></td>
+</tr>
+<tr>
+<td>40</td>
+<td>DHV</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-hung-vuong-thanh-pho-ho-chi-minh.html">Đại học Hùng Vương Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>41</td>
+<td>QST</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-khoa-hoc-tu-nhien-dhqg-tp-ho-chi-minh.html">Đại học Khoa học Tự nhiên - ĐHQG TP Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>42</td>
+<td>QSX</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-tphcm.html">Đại học Khoa học Xã hội và Nhân văn - ĐHQG TP.HCM</a></td>
+</tr>
+<tr>
+<td>43</td>
+<td>TKG</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kien-giang.html">Đại học Kiên Giang</a></td>
+</tr>
+<tr>
+<td>44</td>
+<td>KTS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kien-truc-thanh-pho-ho-chi-minh.html">Đại học Kiến trúc Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>45</td>
+<td>KTS.CT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kien-truc-thanh-pho-ho-chi-minh-co-so-can-tho.html">Đại học Kiến trúc Thành phố Hồ Chí Minh (Cơ sở Cần Thơ)</a></td>
+</tr>
+<tr>
+<td>46</td>
+<td>QSK</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kinh-te-luat-dh-quoc-gia-tphcm.html">Đại học Kinh tế - Luật (ĐH Quốc gia TP.HCM)</a></td>
+</tr>
+<tr>
+<td>47</td>
+<td>UEF</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kinh-te-tai-chinh-tphcm.html">Đại học Kinh tế - Tài chính TP.HCM</a></td>
+</tr>
+<tr>
+<td>48</td>
+<td>DLA</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kinh-te-cong-nghiep-long-an.html">Đại học Kinh tế Công nghiệp Long An</a></td>
+</tr>
+<tr>
+<td>49</td>
+<td>DKB</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kinh-te-ky-thuat-binh-duong.html">Đại học Kinh tế Kỹ thuật Bình Dương</a></td>
+</tr>
+<tr>
+<td>50</td>
+<td>KSA</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-kinh-te-tp-hcm.html">Đại học Kinh tế TP. HCM</a></td>
+</tr>
+<tr>
+<td>51</td>
+<td>KCC</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ky-thuat-cong-nghe-can-tho.html">Đại học Kỹ thuật Công nghệ Cần Thơ</a></td>
+</tr>
+<tr>
+<td>52</td>
+<td>DLS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-lao-dong-xa-hoi-co-so-2-tphcm.html">Đại học Lao động Xã hội - Cơ sở 2 Tp.HCM</a></td>
+</tr>
+<tr>
+<td>53</td>
+<td>LPS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-luat-tphcm.html">Đại học Luật TP.HCM</a></td>
+</tr>
+<tr>
+<td>54</td>
+<td>MBS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-mo-thanh-pho-ho-chi-minh.html">Đại học Mở Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>55</td>
+<td>MDA</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-mo-dia-chat-cs-vung-tau.html">Đại học Mỏ Địa chất (CS Vũng Tàu)</a></td>
+</tr>
+<tr>
+<td>56</td>
+<td>MCA.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-my-thuat-cong-nghiep-a-chau-co-so-tp-hcm.html">Đại học Mỹ thuật Công nghiệp Á Châu (Cơ sở TP HCM)</a></td>
+</tr>
+<tr>
+<td>57</td>
+<td>MTS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-my-thuat-thanh-pho-ho-chi-minh.html">Đại học Mỹ thuật Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>58</td>
+<td>DNC</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-nam-can-tho.html">Đại học Nam Cần Thơ</a></td>
+</tr>
+<tr>
+<td>59</td>
+<td>NHS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ngan-hang-tp-hcm.html">Đại học Ngân hàng TP. HCM</a></td>
+</tr>
+ <tr>
+<td>60</td>
+<td>SNH</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ngo-quyen-si-quan-cong-binh.html">Đại học Ngô Quyền (Sĩ quan Công binh)</a></td>
+</tr>
+<tr>
+<td>61</td>
+<td>DNT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ngoai-ngu-tin-hoc-tphcm.html">Đại học Ngoại ngữ - Tin học TP.HCM</a></td>
+</tr>
+<tr>
+<td>62</td>
+<td>NTS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ngoai-thuong-co-so-tphcm.html">Đại học Ngoại thương (Cơ sở TP.HCM)</a></td>
+</tr>
+<tr>
+<td>63</td>
+<td>LBH.LQ2</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-nguyen-hue-si-quan-luc-quan-2.html">Đại học Nguyễn Huệ (Sĩ quan Lục quân 2)</a></td>
+</tr>
+<tr>
+<td>64</td>
+<td>NTT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-nguyen-tat-thanh.html">Đại học Nguyễn Tất Thành</a></td>
+</tr>
+<tr>
+<td>65</td>
+<td>DNV.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-noi-vu-ha-noi-co-so-tphcm.html">Đại học Nội vụ Hà Nội (cơ sở Tp.HCM)</a></td>
+</tr>
+<tr>
+<td>66</td>
+<td>NLS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-nong-lam-thanh-pho-ho-chi-minh.html">Đại học Nông Lâm Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>67</td>
+<td>UPDATE.41</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-quoc-gia-tphcm.html">Đại học Quốc gia TP.HCM</a></td>
+</tr>
+<tr>
+<td>68</td>
+<td>QSQ</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-quoc-te-dh-quoc-gia-tphcm.html">Đại học Quốc tế - ĐH Quốc gia TP.HCM</a></td>
+</tr>
+<tr>
+<td>69</td>
+<td>HIU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-quoc-te-hong-bang.html">Đại học Quốc tế Hồng Bàng</a></td>
+</tr>
+<tr>
+<td>70</td>
+ <td>EIU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-quoc-te-mien-dong.html">Đại học Quốc tế Miền Đông</a></td>
+</tr>
+<tr>
+<td>71</td>
+<td>TTQ</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-quoc-te-sai-gon.html">Đại học Quốc tế Sài Gòn</a></td>
+</tr>
+<tr>
+<td>72</td>
+<td>RMU.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-rmit-nam-sai-gon.html">Đại học RMIT Nam Sài Gòn</a></td>
+</tr>
+<tr>
+<td>73</td>
+<td>SGD</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-sai-gon.html">Đại học Sài Gòn</a></td>
+</tr>
+<tr>
+<td>74</td>
+<td>DSD</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-san-khau-dien-anh-thanh-pho-ho-chi-minh.html">Đại học Sân khấu - Điện ảnh Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>75</td>
+<td>SPK</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-su-pham-ky-thuat-tphcm.html">Đại học Sư phạm Kỹ thuật TP.HCM</a></td>
+</tr>
+<tr>
+<td>76</td>
+<td>VLU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-su-pham-ky-thuat-vinh-long.html">Đại học Sư phạm Kỹ thuật Vĩnh Long</a></td>
+</tr>
+<tr>
+<td>77</td>
+<td>STS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-su-pham-the-duc-the-thao-tphcm.html">Đại học Sư phạm Thể dục Thể thao TP.HCM</a></td>
+</tr>
+<tr>
+<td>78</td>
+<td>SPS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-su-pham-tp-hcm.html">Đại học Sư phạm TP. HCM</a></td>
+</tr>
+<tr>
+<td>79</td>
+<td>DMS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tai-chinh-marketing.html">Đại học Tài chính - Marketing</a></td>
+</tr>
+<tr>
+<td>80</td>
+<td>DMT.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tai-nguyen-va-moi-truong-thanh-pho-ho-chi-minh.html">Đại học Tài nguyên và Môi trường Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>81</td>
+<td>DMT.ĐN</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tai-nguyen-va-moi-truong-tphcm-co-so-dong-nai.html">Đại học Tài nguyên và Môi trường TP.HCM (cơ sở Đồng Nai)</a></td>
+</tr>
+<tr>
+<td>82</td>
+<td>TTU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tan-tao.html">Đại học Tân Tạo</a></td>
+</tr>
+<tr>
+<td>83</td>
+<td>DTD</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tay-do.html">Đại học Tây Đô</a></td>
+</tr>
+<tr>
+<td>84</td>
+<td>TDS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-the-duc-the-thao-thanh-pho-ho-chi-minh.html">Đại học Thể dục thể thao Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>85</td>
+<td>TDM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-thu-dau-mot.html">Đại học Thủ Dầu Một</a></td>
+</tr>
+<tr>
+<td>86</td>
+<td>TLS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-thuy-loi-co-so-2.html">Đại học Thủy lợi - Cơ sở 2</a></td>
+</tr>
+<tr>
+<td>87</td>
+<td>TTG</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tien-giang.html">Đại học Tiền Giang</a></td>
+</tr>
+<tr>
+<td>88</td>
+<td>DTT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ton-duc-thang.html">Đại học Tôn Đức Thắng</a></td>
+</tr>
+<tr>
+<td>89</td>
+<td>TDTU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-ton-duc-thang-co-so-ca-mau.html">Đại học Tôn Đức Thắng (cơ sở Cà Mau)</a></td>
+</tr>
+<tr>
+<td>90</td>
+<td>DVT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-tra-vinh.html">Đại học Trà Vinh</a></td>
+</tr>
+<tr>
+<td>91</td>
+ <td>VHS.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-van-hoa-thanh-pho-ho-chi-minh.html">Đại học Văn hóa Thành phố Hồ Chí Minh</a></td>
+</tr>
+<tr>
+<td>92</td>
+<td>DVL</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-van-lang.html">Đại học Văn Lang</a></td>
+</tr>
+<tr>
+<td>93</td>
+<td>VGU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-viet-duc-co-so-binh-duong.html">Đại học Việt - Đức (Cơ sở Bình Dương)</a></td>
+</tr>
+<tr>
+<td>94</td>
+<td>VGU.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-viet-duc-co-so-tp-hcm.html">Đại học Việt - Đức (Cơ sở TP. HCM)</a></td>
+</tr>
+<tr>
+<td>95</td>
+<td>VTT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-vo-truong-toan.html">Đại học Võ Trường Toản</a></td>
+</tr>
+<tr>
+<td>96</td>
+<td>MTU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-xay-dung-mien-tay.html">Đại học Xây dựng Miền Tây</a></td>
+</tr>
+<tr>
+<td>97</td>
+<td>YCT</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-y-duoc-can-tho.html">Đại học Y Dược Cần Thơ</a></td>
+</tr>
+<tr>
+<td>98</td>
+<td>YDS</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-y-duoc-tphcm.html">Đại học Y Dược TP.HCM</a></td>
+</tr>
+<tr>
+<td>99</td>
+<td>TYS.HCM</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-y-khoa-pham-ngoc-thach.html">Đại học Y khoa Phạm Ngọc Thạch</a></td>
+</tr>
+<tr>
+<td>100</td>
+<td>DNU</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-dong-nai.html">Đại học Đồng Nai</a></td>
+</tr>
+<tr>
+<td>101</td>
+<td>SPD</td>
+<td><a href="https://tuyensinhso.vn/school/dai-hoc-dong-thap.html">Đại học Đồng Tháp</a></td>
+</tr>
+ </tbody>
+</table>
+</body>
+</html>
