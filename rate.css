@@ -1,16 +1,57 @@
-*{
-  font-family: Arial;
-  border-collapse: collapse;
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+body{margin:0;padding:0;font-family:Arial;}
+h1{
+  color:red;
+  margin-top:0;
+  padding-top:50px;
+  margin-left:10%;
 }
-body{
-  margin:0;
-  padding:0;
-  text-indent: 10px;
+
+#rating{border:none;float:left;margin-left:20%;}
+#rating>input{display:none;}
+#rating>label:before{
+  margin:10px;
+  font-size:25px;
+  font-family:FontAwesome;
+  display:inline-block;
+  content:"\f005";}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}
+#rating>label{color:#ddd;float:right;}
+
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
+
+.cmt{
+  padding:5px 20px 100px 10px; 
+  width:70%;
+  margin-top:5%;
+  margin-bottom:2%;
+  margin-left:10%;
+  font-size:21px;
 }
-#menu .pos{
-  background: white;
-  color: black;
+.name{
+  margin-left:10%;
 }
+#submit-form {
+  font-weight: semi-bold;
+  color:black;
+  background:white;
+  font-size:25px;
+  margin-left:43%;
+  border:1px solid gray;
+}
+#submit-form:hover{
+  background:lightblue;
+  color:white;
+}
+
   .container {
             cursor: pointer;
             position:fixed;
@@ -63,7 +104,6 @@ overflow: auto;
 #menu{
   line-height:200%;
   display:none;
-  text-indent:0px;
 }
 #menu ul a{
 text-decoration:none;
@@ -80,43 +120,6 @@ transition:0.5s;
   background: #B5B5B5;
   color: #333;
 } 
-#submit-form {
-  font-weight: semi-bold;
-  color:black;
-  background:white;
-  font-size:25px;
-  margin-left:43%;
-  border:1px solid gray;
-}
-#submit-form:hover{
-  background:gray;
-  color:white;
-}
-td{
-  font-size:21px;
-}
-th{
-  font-size:23px;
-  color:red;
-}
-h2{
-  font-size:30px;
-  color:green;
-}
-h1{
-  color:red
-}
-.inp{
-  display:inline-flex;
-}
-form input{
-  height:25px;
-  width:25px;
-}
-form{
-  padding-left:5%;
-  padding-top:15px;
-}
 #mySearch {
   width: 210px;
   font-size: 18px;
@@ -135,11 +138,15 @@ form{
   #mbody{
     margin-left:236px;
   }
+  .cmt{
+  padding:5px 10% 100px 10px; 
+  margin-top:2%;
+  margin-bottom:2%;
+  font-size:21px;
 }
-
-
+}
 .modal {
-  display: block; /* Hidden by default */
+  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -152,7 +159,7 @@ form{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
+/* Modal Content */
 .modal-content {
   position: relative;
   background-color: #fefefe;
@@ -167,6 +174,7 @@ form{
   animation-duration: 0.4s
 }
 
+
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0} 
   to {top:0; opacity:1}
@@ -177,7 +185,6 @@ form{
   to {top:0; opacity:1}
 }
 
-/* The Close Button */
 .close {
   color: white;
   float: right;
@@ -187,26 +194,21 @@ form{
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #000;
   text-decoration: none;
   cursor: pointer;
 }
+
 .modal-header {
   padding: 2px 16px;
-  background-color: orange;
+  background-color: #5cb85c;
   color: white;
-  font-size:25px;
 }
 
 .modal-body {padding: 2px 16px;}
 
-.modal-body p {
-  font-size: 21px;
-  color: red;
-}
-.lm{
-  text-decoration: none;
-}
-.lm:hover{
-  color:#aaa;
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
 }

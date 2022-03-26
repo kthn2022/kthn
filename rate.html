@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="title.jpg"/>
+<title>Đánh giá</title>
+<link rel="stylesheet" type="text/css" href="rate.css"> 
+<script src="script.js"></script>
+</head>
+<body>
+<div id="menu">
+ <ul>
+<input type="text" id="mySearch" onkeyup="Function()" placeholder="Search..">
+ <li><a class="pos" href="index.html">Cơ sở lý thuyết</a></li>
+<li><a href="html1.html">Test chẩn đoán - khác biệt</a></li>
+<li><a href="html2.html">Test khí chất</a></li>
+<li><a href="html3.html">Test hứng thú</a></li>
+<li><a href="html4.html">Test sự phù hợp nghề</a></li>
+<li><a href="ttts.html">Tuyển sinh miền Bắc</a></li>
+<li><a href="tttst.html">Tuyển sinh miền Trung</a></li>
+<li><a href="tttsn.html">Tuyển sinh miền Nam</a></li>
+<li><a href="http://thidanhgianangluc.edu.vn/?fbclid=IwAR0cw3XX6zJNSpmuF6yuqyamC8Nb4WTzg22AVl2Lx0--z7nCNM_EQn6ipTw">Kì thi đánh giá năng lực</a></li>
+<li><a href="https://thongtintuyensinh.vn/Tim-truong-theo-cac-nhom-nganh-dao-tao-trinh-do-dai-hoc_C128_D14907.htm">Tuyển sinh theo nhóm ngành</a></li>
+<li><a href="https://thongtintuyensinh.vn/Gioi-thieu-mot-so-nganh-nghe-trong-xa-hoi_C217_D4955.htm">Các ngành nghề</a></li>
+<li><a href="https://thongtintuyensinh.vn/Danh-muc-cac-nganh-nghe-dao-tao_C253_D6515.htm">Danh mục nghề</a></li>
+<li><a href="https://thongtintuyensinh.vn/Chuong-trinh-Quoc-te_C123.htm">Chương trình quốc tế</a></li> </ul>
+</div>
+<div id="mbody">
+  <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+<h1>
+  Bạn hãy đánh giá chất lượng bài test
+  </h1>
+<form id="google-form" onsubmit="sendForm();">
+<p class="name">
+  Tên của bạn:
+  <input type="text" name="Tên" placeholder="VD: Nguyễn Văn A">
+</p>
+<br>
+<div id="rating">
+    <input type="radio" id="star5" name="Đánh giá" value="5" />
+    <label class = "full" for="star5" title="Rất tuyệt vời - 5 sao"></label>
+    
+    <input type="radio" id="star4half" name="Đánh giá" value="4.5" />
+    <label class="half" for="star4half" title="Tuyệt vời - 4.5 sao"></label>
+    
+    <input type="radio" id="star4" name="Đánh giá" value="4" />
+    <label class = "full" for="star4" title="Khá tuyệt - 4 sao"></label>
+    
+    <input type="radio" id="star3half" name="Đánh giá" value="3.5" />
+    <label class="half" for="star3half" title="Hơn cả mong đợi - 3.5 sao"></label>
+    
+    <input type="radio" id="star3" name="Đánh giá" value="3" />
+    <label class = "full" for="star3" title="Tốt - 3 sao"></label>
+    
+    <input type="radio" id="star2half" name="Đánh giá" value="2.5" />
+    <label class="half" for="star2half" title="Hơi tệ - 2.5 sao"></label>
+    
+    <input type="radio" id="star2" name="Đánh giá" value="2" />
+    <label class = "full" for="star2" title="Khá tệ - 2 sao"></label>
+    
+    <input type="radio" id="star1half" name="Đánh giá" value="1.5" />
+    <label class="half" for="star1half" title="Tệ - 1.5 sao"></label>
+    
+    <input type="radio" id="star1" name="Đánh giá" value="1" />
+    <label class = "full" for="star1" title="Rất tệ - 1 sao"></label>
+    
+    <input type="radio" id="starhalf" name="Đánh giá" value="0.5" />
+    <label class="half" for="starhalf" title="Rất rất tệ - 0.5 sao"></label>
+</div> 
+  <br><br>
+ <input type="text" class="cmt" name="Phản hồi" placeholder="Góp ý">
+ <br><br><button type="submit" class="button" id="submit-form">Gửi</button>
+  </form></div>
+  <div id="myModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h4>Đánh giá thành công</h4>
+    </div>
+    <div class="modal-body">
+      <p>Cảm ơn bạn đã tham gia đánh giá</p>
+      <p>Chúng tôi sẽ thu nhận phản hồi và sẽ sớm cải thiện trong tương lai</p>
+    </div>
+  </div>
+  </div>
+  <script src="jquery-1.12.0.min.js"></script>
+    <script type="text/javascript">
+    function sendForm() {
+    let data = $('#google-form').serialize();
+
+    $.ajax({ 
+        url: 'https://script.google.com/macros/s/AKfycbxz5Mrek6XmuXxl-The-idISOWdY2HGcl2ZVeu-XH-YCds-jUyGW3EtiToy5WiDxa4F/exec',
+        method: 'GET',
+        dataType: 'json',
+        data: data,
+        success: function(responseData, textStatus, jqXHR) {
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log(errorThrown);
+        }
+    });
+var modal = document.getElementById("myModal");
+  modal.style.display = "block"; 
+      
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+return true;
+};</script>
+  </body>
+</html>

@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-       <title>Trắc nghiệm hứng thú của E.GÔLÔMSTOC</title>
-   <link rel="shortcut icon" href="title.jpg"/>
-    <link rel="stylesheet" href="css3.css" />
-    <script src="script.js"></script>
-  </head>
-  <body>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Trắc nghiệm hứng thú của E.GÔLÔMSTOC</title>
+<link rel="shortcut icon" href="title.jpg"/>
+<link rel="stylesheet" href="css3.css" />
+<script src="script.js"></script>
+</head>
+<body>
 <div id="menu">
  <ul>
 <input type="text" id="mySearch" onkeyup="Function()" placeholder="Search..">
-  <li><a href="index.html">Cơ sở lý thuyết</a></li>
- <li><a href="html1.html">Test chẩn đoán - khác biệt</a></li>
- <li><a href="html2.html">Test khí chất</a></li>
- <li><a class="pos" href="html3.html">Test hứng thú</a></li>
- <li><a href="html4.html">Test sự phù hợp nghề</a></li>
-   <li><a href="ttts.html">Tuyển sinh miền Bắc</a></li>
-   <li><a href="tttst.html">Tuyển sinh miền Trung</a></li>
-   <li><a href="tttsn.html">Tuyển sinh miền Nam</a></li>
- <li><a href="http://thidanhgianangluc.edu.vn/?fbclid=IwAR0cw3XX6zJNSpmuF6yuqyamC8Nb4WTzg22AVl2Lx0--z7nCNM_EQn6ipTw">Kì thi đánh giá năng lực</a></li>
-  <li><a href="https://thongtintuyensinh.vn/Tim-truong-theo-cac-nhom-nganh-dao-tao-trinh-do-dai-hoc_C128_D14907.htm">Tuyển sinh theo nhóm ngành</a></li>
+<li><a href="index.html">Cơ sở lý thuyết</a></li>
+<li><a href="html1.html">Test chẩn đoán - khác biệt</a></li>
+<li><a href="html2.html">Test khí chất</a></li>
+<li><a class="pos" href="html3.html">Test hứng thú</a></li>
+<li><a href="html4.html">Test sự phù hợp nghề</a></li>
+<li><a href="ttts.html">Tuyển sinh miền Bắc</a></li>
+<li><a href="tttst.html">Tuyển sinh miền Trung</a></li>
+<li><a href="tttsn.html">Tuyển sinh miền Nam</a></li>
+<li><a href="http://thidanhgianangluc.edu.vn/?fbclid=IwAR0cw3XX6zJNSpmuF6yuqyamC8Nb4WTzg22AVl2Lx0--z7nCNM_EQn6ipTw">Kì thi đánh giá năng lực</a></li>
+<li><a href="https://thongtintuyensinh.vn/Tim-truong-theo-cac-nhom-nganh-dao-tao-trinh-do-dai-hoc_C128_D14907.htm">Tuyển sinh theo nhóm ngành</a></li>
 <li><a href="https://thongtintuyensinh.vn/Gioi-thieu-mot-so-nganh-nghe-trong-xa-hoi_C217_D4955.htm">Các ngành nghề</a></li>
 <li><a href="https://thongtintuyensinh.vn/Danh-muc-cac-nganh-nghe-dao-tao_C253_D6515.htm">Danh mục nghề</a></li>
 <li><a href="https://thongtintuyensinh.vn/Chuong-trinh-Quoc-te_C123.htm">Chương trình quốc tế</a></li>
@@ -506,6 +506,40 @@
     </div>
 <br><button type="submit" id="submit-form">Gửi</button>
 </form>
+<div id="myModal" class="modal">
+    
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h4>Cảm ơn bạn đã tham gia bài test</h4>
+    </div>
+    <div class="modal-body">
+      <p>Nếu có ý kiến phản hồi hay đánh giá xin vui lòng bấm vào <a class="lm" href="rate.html">đây</a></p>
+      <p>Chúng tôi sẽ thu nhận phản hồi và sẽ sớm cải thiện trong tương lai</p>
+    </div>
+    <p></p>
+  </div>
+
+</div>
+<script type="text/javascript">
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
     </div>
   </body>
 </html>
